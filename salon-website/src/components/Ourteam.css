@@ -1,0 +1,53 @@
+.our-team-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .our-team-section h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ensure 4 columns for 4 images */
+    gap: 50px; /* Space between team members */
+    margin-left: 0px;
+  }
+  
+  .team-member {
+    background-color: rgb(221, 190, 11);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0%; /* Make the image round */
+    margin-bottom: 10px; /* Space between image and name */
+  }
+  
+  .team-member h3 {
+    font-size: 38px;
+    margin: 0;
+    color: #090909;
+  }
+  
+  /* Responsive: 2 members per row on tablets */
+  @media (max-width: 768px) {
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+  }
+  
+  /* Responsive: 1 member per row on mobile */
+  @media (max-width: 480px) {
+    .team-grid {
+      grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+  }
+  

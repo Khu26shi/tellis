@@ -1,0 +1,86 @@
+.footer{
+    background-color: rgb(40, 38, 38);
+    color: white;
+}
+.footer p{
+    margin-left: 40px;
+    margin-top: 4%;
+    
+    
+}
+.footer input{
+    height: 30px;
+    margin-left: 40px
+
+}
+.copyright{
+    text-align: center;
+}
+.para{
+    padding-top: 50px;
+
+}
+.end{
+    display: flex;
+}
+.link{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+.hair{
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.hair a{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+.contact{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.footer button{
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: chocolate;
+    height: 30px;
+    color: white;
+    border-radius: 30px;
+    width: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    border: 2px solid white;
+    
+}
+i{
+    padding-right: 20px;
+    color: rgb(223, 122, 50);
+}
+.icon{
+    padding-left: 80px;
+    
+}

@@ -1,0 +1,23 @@
+
+.header nav{
+    padding-left: 100px;
+    position: relative;
+    width: 1418px;
+    color: beige;
+    opacity: 80%;
+    margin-left: 90px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header nav a{
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 50px;
+    
+}
+.header{
+    background-color: black;
+    height: 80px;    
+    
+}

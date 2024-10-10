@@ -1,0 +1,106 @@
+.contact-us{
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.start{
+    margin-top: 20px;
+    background-image: url('https://png.pngtree.com/background/20230517/original/pngtree-small-black-hair-salon-in-an-empty-space-picture-image_2634096.jpg');
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    
+    filter: brightness(80%);
+
+    
+}
+.start h1{
+    padding-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: yellow;
+    margin-top: 150px;
+    
+}
+.start h2{
+    padding-left: 60px;
+    margin-right: 300px ;
+
+    color: white;
+    
+
+}
+.start p{
+    color: white;
+    text-align: center;
+    margin-left: 48px;
+    margin-right: 300px;
+}
+.form{
+    background-color: rgb(58, 56, 56);
+    margin-top: 20px;
+    width: 720px;
+    height: 600px;
+}
+.form h1{
+    color: rgb(243, 150, 28);
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-style: normal;
+}
+.form input{
+    
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(58, 56, 56);
+    border: 2px solid white;
+    
+}
+.form ::placeholder{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.form button{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 500px;
+    background-color: rgb(219, 132, 18);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+}
+@media (max-width:768px){
+    .start{
+        width: 1000px;
+
+    }
+    .form{
+        width: 800px;
+    }
+}
+@media (min-width:468px){
+    .start{
+        width: 1000px;
+
+    }
+    .start p{
+        font-size: 20px;
+        
+    }
+    .form{
+        width: 1000px;
+    }
+}

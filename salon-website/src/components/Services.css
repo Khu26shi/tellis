@@ -1,0 +1,58 @@
+.services h2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.services h1{
+    text-align: center;
+    color: rgb(224, 136, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.services{
+    background-color: antiquewhite;
+}
+.service-list {
+    display: flex;    
+}
+.service{
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+    padding: 60px;
+    background-color: white;
+    
+}
+.service h3{
+    margin-top: 0px;
+    text-align: center;
+}
+.service p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+.service button{
+    color: rgb(224, 136, 20);
+    border: 3px solid rgb(224, 136, 20);
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+@media (max-width: 768px) {
+    .service-list{
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+  }
+  
+  /* Responsive: 1 member per row on mobile */
+  @media (max-width: 468px) {
+    .service-list {
+      grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+  }

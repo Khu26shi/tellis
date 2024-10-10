@@ -1,0 +1,45 @@
+.our-clients-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .our-clients-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for 4 logos */
+    gap: 30px; /* Space between the logos */
+    align-items: center;
+    justify-items: center; /* Center logos horizontally */
+  }
+  
+  .client-logo img {
+    width: 300px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    filter: grayscale(100%); /* Optional: Make logos grayscale */
+    transition: filter 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .client-logo img:hover {
+    filter: grayscale(0); /* Optional: Remove grayscale on hover */
+  }
+  
+  /* Responsive: 2 logos per row on tablets */
+  @media (max-width: 768px) {
+    .clients-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Responsive: 1 logo per row on mobile */
+  @media (max-width: 480px) {
+    .clients-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

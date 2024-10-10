@@ -1,0 +1,50 @@
+/* src/styles/Hero.css */
+.hero {
+    background-image: url('https://images.newrepublic.com/9bba0e56c589fb3e06191969202abb446327a86a.jpeg?auto=format&fit=crop&crop=faces&q=65&w=1000&h=undefined&ar=3%3A2&ixlib=react-9.0.2&w=1000');
+    background-size: cover;
+    color: #e9ed0d;
+    text-align: center;
+    padding: 100px 20px;
+    height: 700px;
+    width: auto;
+    filter: brightness(80%);
+    
+}
+.hero::before{
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    position: absolute;
+}
+
+  .hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+  .hero p {
+    font-size: 1.9em;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .hero button {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    height: 80px;
+    width: 500px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
